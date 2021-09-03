@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+h2 a{
+    text-decoration: none;
+    color: #307A2B;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.navbar{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    flex: 1;
+    text-align: left;
+    margin-left: 60px;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: #000;
+    position: relative;
+}
+
+.navbar-icons img{
+    height: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.navbar-icons{
+    margin-left: 40px;
+}
+
+h3{
+    color: #f00b40;
+}
+
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+
+.left-column,.right-column{
+    flex-basis: 50%;
+}
+
+.right-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-column img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.left-column h1{
+    font-size: 100px;
+    color: #CA8A28 cd  ;
+}
+
+.left-column h3{
+    font-size: 15px;
+}
+
+
+.left-column p{
+    color: #999;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.btn{
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+
+button{
+    padding: 7px 30px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 15px 0 rgba(48, 122, 43, .1);
+}
+
+.primary-btn{
+    border-bottom-right-radius: 30px;
+    background: #307A2B;
+}
+
+.btn .secondary-btn{
+    border-top-left-radius: 30px;
+    background: rgb(58, 58, 58);
+}
+
+.schedules{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 90px;
+    width: 40%;
+}
+
+.info{
+    width: 70%;
+    margin-top: 10px;
+    height: 110px;
+    border: 1px dashed gray;
+    background: rgba(233, 231, 231, 0.1);
+    border-radius: 15px;
+}
+
+.info h5{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.banner .left-column .price{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 33.5%;
+    top: 29%;
+    color: #f3f1f1;
+    font-size: 35px;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    height: 72px;
+    border: 1px dashed gray;
+    opacity: .5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.line img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+
+.section-heading{
+    text-align: center;
+}
+
+.h2{
+    color: #307A2B;
+    font-size: 40px;
+}
+
+.h4{
+    letter-spacing: 5px;
+    color: #f79400;
+    margin-top: 70px;
+}
+
+.section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section  img{
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 10px 15px 5px #ccc;
+
+}
+
+.section  h3{
+    color: #000;
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+.section .right-column{
+    align-items: flex-start;
+}
+
+.section .right-column p{
+    color: gray;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.h3{
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    border-radius: 5px;
+    flex-basis: calc(100% / 3.2);
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 10px 15px 10px #ccc;
+    line-height: 50px;
+    background: rgba(204, 204, 204, .3);
+    margin: 50px 0 50px 20px;
+}
+
+.testimonials .col {
+    border-radius: 5px;
+    flex-basis: calc(100% / 3);
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 10px 15px 10px #ccc;
+    line-height: 50px;
+    background: rgba(204, 204, 204, .3);
+    margin: 50px 0 50px 20px;
+}
+
+
+.col img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.col button{
+    border-radius: 20px;
+}
